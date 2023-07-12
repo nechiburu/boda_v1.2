@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState  } from 'react';
 import Header2 from '../../components/header2'
 import AdminMenu from '../../components/AdminMenu'
-import React, { useState } from 'react';
 import clienteAxios from '../../api/axios';
 import SimpleReactValidator from "simple-react-validator";
 import { toast } from "react-toastify";
